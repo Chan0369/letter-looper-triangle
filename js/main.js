@@ -10,6 +10,14 @@ for (var i = 0; i < 10; i++) {
       document.write(letterLooper + letterLooper + letterLooper + '<br>');
       for (var i = 0; i < 7; i++) {
         document.write(letterLooper + letterLooper + letterLooper + letterLooper + '<br>');
+        for (var i = 0; i < 6; i++) {
+          document.write(letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + '<br>');
+          for (var i = 0; i < 5; i++) {
+            document.write(letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + '<br>');
+            for (var i = 0; i < 4; i++) {
+              document.write(letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + '<br>');
+          }
+        }
       }
     }
   }
