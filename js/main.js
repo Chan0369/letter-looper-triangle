@@ -16,6 +16,16 @@ for (var i = 0; i < 10; i++) {
             document.write(letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + '<br>');
             for (var i = 0; i < 4; i++) {
               document.write(letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + '<br>');
+              for (var i = 0; i < 3; i++) {
+                document.write(letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + '<br>');
+                for (var i = 0; i < 2; i++) {
+                  document.write(letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + '<br>');
+                  for (var i = 0; i < 1; i++) {
+                    document.write(letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + letterLooper + '<br>');
+                  }
+                }
+              }
+            }
           }
         }
       }
